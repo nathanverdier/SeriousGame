@@ -16,12 +16,23 @@
   - Faire un jeu pour apprendre a outil divers outils Github
   - Apprendre les enjeux et les utilisation du l'intégration continue
   - Apprendre les enjeux et les utilisation du déployement continue
+- Culture et langue
+  - Apprendre divers langue
+  - Avec des questions écrite et oral
+  - Tester le niveau 
+
+
+### L'idée garder
+
+
+
+### Détail de l'idée
+Nous souhaitons que cette idées sois jouable sous un format texte.
+
+On souhaite que se dernier sois accéssible pour les étudiants et par des professeurs lors de tp notamment
+
+**GameShell**
  
 
 ### Pour la prochaine fois
-
-
-- Un document "carnet-de-bord.md", à remplir en groupe à chaque fin de TP (chaque semaine). Pour chaque séance racontez :
-  - ce que vous avez fait aujourd’hui (avancées et difficultés) ;
-  - ce que vous prévoyez de faire la prochaine fois ;
-  - votre organisation dans l’équipe : ce qui marche, ce qui est agréable ou compliqué, ce que vous gardez et ce que vous changez.
+Détail scénario
