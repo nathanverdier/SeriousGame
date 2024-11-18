@@ -4,14 +4,14 @@ Voici une idée de jeu en shell avec une trame narrative mêlant fantastique, é
 ### Titre : **"La Citadelle des Connaissances Perdues"**
 
 #### Contexte de l’histoire :
-Dans un monde médiéval-fantastique où magie et technologie cohabitent en équilibre précaire, les grandes cités ont longtemps prospéré grâce à des artefacts millénaires appelés **"Les Systèmes d'IA Souverains"**, des entités intelligentes qui aident les humains à contrôler la technologie avancée et à comprendre les mystères des langages et machines perdues. Ces artefacts sont en fait des systèmes informatiques hyper-avancés, héritage d'une ancienne civilisation, aujourd'hui incompris par les habitants du monde.
+Dans un monde médiéval-fantastique où la technologie y est tres avancer, les grandes cités ont longtemps prospéré grâce à des artefacts millénaires appelés **"Les Systèmes d'IA Souverains"**, des entités intelligentes qui aident les humains à contrôler la technologie avancée et à comprendre les mystères des langages et machines perdues. Ces artefacts sont en fait des systèmes informatiques hyper-avancés, héritage d'une ancienne civilisation, aujourd'hui incompris par les habitants du monde.
 
-Cependant, une **faille dans l'espace-temps** a relâché un **virus technomagique** qui corrompt peu à peu ces IA. Les royaumes du monde entier sombrent dans le chaos alors que les machines se retournent contre leurs créateurs et les systèmes vitaux tombent en panne.
+Cependant, un **virus informatique puissant** est relaché se qui corrompt peu à peu ces IA. Les royaumes du monde entier sombrent dans le chaos alors que les machines se retournent contre leurs créateurs et les systèmes vitaux tombent en panne.
 
 #### Rôle du joueur :
-Le joueur incarne un jeune **Archonte-Technomancien**, un des rares capables de dialoguer à la fois avec les systèmes d’IA et de comprendre les langages de programmation anciens. Il a pour mission de rétablir l'équilibre, en **décryptant des systèmes défectueux**, **corrigeant les erreurs** et **reconstruisant les liens brisés** entre les IA corrompues et le monde.
+Le joueur incarne un jeune **Archonte-Technomancien** (grand sage ou maitre des technologie de l'ancient temp) un des rares capables de dialoguer à la fois avec les systèmes d’IA et de comprendre les langages de programmation anciens. Il a pour mission de rétablir fixé les problèmes causés par le virus, en **décryptant des systèmes défectueux**, **corrigeant les erreurs** et **reconstruisant les liens brisés** entre les IA corrompues et le monde.
 
-Le joueur devra parcourir différentes zones, symbolisées par des **terminaux magico-technologiques**, où il résout des problèmes complexes liés aux commandes systèmes, à la robotique et à la programmation pour libérer les IA corrompues.
+Le joueur devra parcourir différentes zones, symbolisées par des **terminaux technologiques de l'ancien temps**, où il résout des problèmes complexes liés aux commandes systèmes, à la robotique et à la programmation pour libérer les IA corrompues.
 
 #### Thèmes et ambiance :
 - **Fusion médiévale/futuriste** : Le joueur évolue dans des environnements de cités médiévales où des technologies ultra-avancées (parfois incomprises) sont omniprésentes. 
