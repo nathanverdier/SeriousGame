@@ -1,10 +1,11 @@
+## Pitch complet
 **Nom du jeu : Le Virus Souverain** 
 
 **Introduction : Un monde à l’intersection du fantastique et de la technologie**  
-Imaginez un monde médiéval-fantastique où des cités florissantes reposent sur une technologie très avancée. Au cœur de cette civilisation, des artefacts millénaires, appelés **"Les Systèmes d'IA Souverains"**, régissent les machines et les secrets d’une civilisation disparue. Mais tout bascule lorsqu’un **virus informatique dévastateur** frappe, corrompant ces IA et plongeant les royaumes dans un chaos technologique.  
+Imaginez un monde médiéval-fantastique où des cités florissantes reposent sur une technologie très avancée. Au cœur de cette civilisation, des artefacts millénaires, appelés **"Les Systèmes d'IA Souverains"**, régissent le monde. Mais tout bascule lorsqu’un **virus informatique dévastateur** frappe, corrompant ces IA et plongeant les royaumes dans un chaos technologique.
 
 **Votre mission : Le rôle du joueur**  
-Vous incarnez un **Archonte-Technomancien**, l’un des rares encore capables de comprendre le langage oublié des machines. Votre rôle ? Explorer un univers fascinant, interagir avec des anciens terminaux et plonger dans les profondeurs des systèmes défaillants. Vous devrez **décrypter des codes**, **corriger des erreurs** et **restaurer l’équilibre** du monde.  
+Vous incarnez un **Archonte-Technomancien** du 154ème cycle après la création de **l'IA Souverains**, l’un des rares encore capables de comprendre le langage oublié des machines. Votre rôle ? Explorer un univers fascinant, interagir avec des anciens terminaux et plonger dans les profondeurs des systèmes défaillants. Vous devrez **décrypter des codes**, **corriger des erreurs** et **restaurer l’équilibre** du monde.  
 
 Chaque zone du jeu représente une facette de la technologie à sauver :  
 - **Les commandes systèmes oubliées**, symbolisant les bases de l’informatique.  
