@@ -1,17 +1,26 @@
 # Idée 1 :
 Voici une idée de jeu en shell avec une trame narrative mêlant fantastique, époque médiévale et technologie avancée :
 
-### Titre : **"La Citadelle des Connaissances Perdues"**
+### Nom du jeu : **"Le Virus Souverain"**
 
-#### Contexte de l’histoire :
-Dans un monde médiéval-fantastique où la technologie y est tres avancer, les grandes cités ont longtemps prospéré grâce à des artefacts millénaires appelés **"Les Systèmes d'IA Souverains"**, des entités intelligentes qui aident les humains à contrôler la technologie avancée et à comprendre les mystères des langages et machines perdues. Ces artefacts sont en fait des systèmes informatiques hyper-avancés, héritage d'une ancienne civilisation, aujourd'hui incompris par les habitants du monde.
+### **Contexte de l’histoire :**
 
-Cependant, un **virus informatique puissant** est relaché se qui corrompt peu à peu ces IA. Les royaumes du monde entier sombrent dans le chaos alors que les machines se retournent contre leurs créateurs et les systèmes vitaux tombent en panne.
+Dans un monde mêlant magie et technologie, où des cités florissantes s’élèvent grâce à des innovations dépassant l’entendement, la civilisation repose sur un pilier central : **les Systèmes d'IA Souverains**. Ces artefacts millénaires, à la fois mystiques et scientifiques, sont en réalité des intelligences artificielles ultra-avancées, vestiges d’une ancienne civilisation oubliée. Leur fonctionnement, devenu incompréhensible pour les habitants, est perçu comme un mélange de magie et de science sacrée.
 
-#### Rôle du joueur :
-Le joueur incarne un jeune **Archonte-Technomancien** (grand sage ou maitre des technologie de l'ancient temp) un des rares capables de dialoguer à la fois avec les systèmes d’IA et de comprendre les langages de programmation anciens. Il a pour mission de rétablir fixé les problèmes causés par le virus, en **décryptant des systèmes défectueux**, **corrigeant les erreurs** et **reconstruisant les liens brisés** entre les IA corrompues et le monde.
+Cependant, une catastrophe frappe cette harmonie fragile. **Un virus informatique d’une puissance inouïe** est libéré dans les réseaux des Systèmes d'IA Souverains, corrompant leur programmation et perturbant leurs fonctions essentielles. Très vite, les machines se retournent contre leurs utilisateurs et les systèmes vitaux qu’elles maintenaient tombent en panne, plongeant le monde dans le chaos. Les royaumes s’effondrent, les cités perdent leur splendeur, et la survie de la civilisation elle-même est menacée.
 
-Le joueur devra parcourir différentes zones, symbolisées par des **terminaux technologiques de l'ancien temps**, où il résout des problèmes complexes liés aux commandes systèmes, à la robotique et à la programmation pour libérer les IA corrompues.
+Les rumeurs parlent d'une entité malveillante, peut-être humaine, à l’origine de ce virus. Mais ses motivations restent un mystère.
+
+### **Rôle du joueur :**
+
+Vous incarnez un **Archonte-Technomancien**, un érudit rare et exceptionnel, à la croisée des chemins entre magie et technologie. Membre d’un ordre ancien et respecté, vous êtes l’un des derniers à pouvoir interagir directement avec les Systèmes d'IA Souverains, grâce à une connaissance approfondie des langages de programmation ancestraux et des artefacts oubliés.
+
+Votre mission est titanesque :  
+- **Comprendre l'origine du virus** et découvrir qui ou quoi se cache derrière cette menace.  
+- **Explorer des systèmes corrompus**, pénétrer dans des terminaux technologiques abandonnés et naviguer dans les labyrinthes virtuels d'une technologie défaillante.  
+- **Restaurer l'équilibre**, en purifiant les IA infectées, en réparant les structures informatiques complexes, et en rétablissant les liens brisés entre les machines et les royaumes qu’elles servent.  
+
+Mais ce voyage n’est pas seulement une quête intellectuelle. Les zones les plus infectées regorgent de dangers : des machines autonomes devenues hostiles, des factions humaines profitant du chaos, et des énigmes mêlant magie et logique à résoudre.
 
 #### Thèmes et ambiance :
 - **Fusion médiévale/futuriste** : Le joueur évolue dans des environnements de cités médiévales où des technologies ultra-avancées (parfois incomprises) sont omniprésentes. 
