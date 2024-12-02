@@ -51,6 +51,14 @@ Détail scénario
 
 ## Scéance 3
 ### Fait
+#### - continuer la map
+#### - Point d'étape:
+     - Présentation du jeu
+     - Forces et faiblesses du projet
+     - Documentation sur le thème 
+     - Diagramme de Gantt sur le projet global 
+
+
 
 ### Pour la scéance d'après
 
