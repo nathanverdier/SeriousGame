@@ -36,3 +36,40 @@ On souhaite que se dernier sois accéssible pour les étudiants et par des profe
 
 ### Pour la prochaine fois
 Détail scénario
+
+
+## Scéance 2
+### Fait
+- Présentation oral  
+- Détail de l'histoire et du personnage
+- Développer l'idée de la map et de l'environnement
+- Commencé a codé
+
+### Pour la scéance d'après
+- Continuer le détail de l'histoire et de la map 
+- Continuer le dev
+
+## Scéance 3
+### Fait
+
+### Pour la scéance d'après
+
+## Scéance 4
+### Fait
+
+### Pour la scéance d'après
+
+## Scéance 5
+### Fait
+
+### Pour la scéance d'après
+
+## Scéance 6
+### Fait
+
+### Pour la scéance d'après
+
+## Scéance 7
+### Fait
+
+
