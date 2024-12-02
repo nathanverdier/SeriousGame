@@ -113,5 +113,15 @@ Le jeu soulève également des questions éthiques autour de l'usage des IA et d
 
 
 
+## **Ressource pour développement de jeux en shell**
+
+- **GitHub - GameShell** (projet de développement d'un jeu en shell)  
+  - [GameShell sur GitHub](https://github.com/phyver/GameShell)
+
+---
+
+
+
+
 
 # 4. Diagramme de Gantt sur le projet global + Jalon "TP 7":
