@@ -15,8 +15,28 @@ def completer(text, state):
 readline.set_completer(completer)
 readline.parse_and_bind("tab: complete")
 
+def find_node_by_path(current_node, path):
+    parts = path.split('/')
+    node = current_node
+    for part in parts:
+        if part == "..":
+            if node.parent:
+                node = node.parent
+            else:
+                print("Error: Already at the root.")
+                return None
+        else:
+            next_node = node.find_child(part)
+            if next_node:
+                node = next_node
+            else:
+                print(f"Error: '{part}' not found.")
+                return None
+    return node
+
 def game(lang):
     global current_node  # Make current_node accessible in the completer function
+    global map_root  # Make map_root accessible in the completer function
 
     if lang == 'en':
         history_text = english.history_begin()
@@ -37,19 +57,15 @@ def game(lang):
         print(f"\nCurrent location: {current_node.name}")
         command = input("Enter command: ")
 
-        if command.startswith("cd "):
-            destination = command[3:]
-            if destination == "..":
-                if current_node.parent:
-                    current_node = current_node.parent
-                else:
-                    print("Error: Already at the root.")
+        if command.startswith("cd"):
+            parts = command.split(maxsplit=1)
+            if len(parts) == 1 or parts[1] == "/":
+                current_node = map_root
             else:
-                next_node = current_node.find_child(destination)
+                destination = parts[1]
+                next_node = find_node_by_path(current_node, destination)
                 if next_node:
                     current_node = next_node
-                else:
-                    print(f"Error: '{destination}' not found.")
         elif command == "ls":
             current_node.display(level=0)
         elif command == "exit":
