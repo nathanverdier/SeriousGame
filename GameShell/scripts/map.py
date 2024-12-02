@@ -26,25 +26,29 @@ def create_sample_map():
     root = TreeNode("World")
 
     # Adding continents
-    europe = TreeNode("Europe")
+    europe = TreeNode("Eupi")
     asia = TreeNode("Asia")
     root.add_child(europe)
     root.add_child(asia)
 
     # Adding countries in Europe
-    france = TreeNode("France")
-    germany = TreeNode("Germany")
+    france = TreeNode("IA")
+    germany = TreeNode("Developpement")
+    germany = TreeNode("Cybersecurite") 
+    germany = TreeNode("Algorithme") 
+    germany = TreeNode("Test_Validation") 
     europe.add_child(france)
     europe.add_child(germany)
 
     # Adding cities in France
-    paris = TreeNode("Paris")
-    lyon = TreeNode("Lyon")
-    france.add_child(paris)
-    france.add_child(lyon)
+    sphere = TreeNode("Sphere_securite")
+    quaranaine = TreeNode("Zone_quarantaine")
+    lyon = TreeNode("Temple_données_corrompues")
+    cyber.add_child(paris)
+    cyber.add_child(lyon)
 
     # Adding countries in Asia
-    china = TreeNode("China")
+    china = TreeNode("Omega")
     india = TreeNode("India")
     asia.add_child(china)
     asia.add_child(india)
