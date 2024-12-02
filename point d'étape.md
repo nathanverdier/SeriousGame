@@ -2,7 +2,8 @@
 
 
 # 2. Forces et faiblesses du projet :
-
+## forces:
+## faiblesses:
 
  
 # 3. Documentation sur le thème (2-3 pages maximum) + références/ressources pour aller plus loin:
