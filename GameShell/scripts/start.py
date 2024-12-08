@@ -50,12 +50,12 @@ def game(lang):
     parchemin.display_help_commands_parchemin(commands_text)
 
     # Créer la carte
-    map_root = create_sample_map()
+    map_root = create_sample_map(lang)
     current_node = map_root
 
     while True:
-        print(f"\nCurrent location: {current_node.name}")
-        command = input("Enter command: ")
+        #print(f"\nCurrent location: {current_node.name}")
+        command = input("[mission 1] $ ")
 
         if command.startswith("cd"):
             parts = command.split(maxsplit=1)
@@ -67,7 +67,9 @@ def game(lang):
                 if next_node:
                     current_node = next_node
         elif command == "ls":
-            current_node.display(level=0)
+            current_node.list_children()
+        elif command == "pwd":
+            print(current_node.get_path(lang))
         elif command == "exit":
             break
         else:
