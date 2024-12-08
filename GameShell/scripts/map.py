@@ -1,20 +1,36 @@
 # map.py
 
+translations = {
+    "World": "Monde",
+    "Eupi": "Eupi",
+    "AI": "IA",
+    "Development": "Developpement",
+    "Cybersecurity": "Cybersecurite",
+    "Algorithm": "Algorithme",
+    "Test_Validation": "Test_Validation",
+    "Security_Sphere": "Sphere_securite",
+    "Quarantine_Zone": "Zone_quarantaine",
+    "Corrupted_Data": "Données_corrompues"
+}
+
 class TreeNode:
-    def __init__(self, name, parent=None):
+    def __init__(self, name, parent=None, is_directory=True):
         self.name = name
         self.children = []
         self.parent = parent
+        self.is_directory = is_directory
 
     def add_child(self, child_node):
         child_node.parent = self
         self.children.append(child_node)
 
-    def display(self, level=0):
-        indent = " " * (level * 4)
-        print(f"{indent}- {self.name}")
+    def list_children(self):
         for child in self.children:
-            child.display(level + 1)
+            if child.is_directory:
+                print(f"\033[34m{child.name}\033[0m", end=' ')  # Blue for directories
+            else:
+                print(f"\033[32m{child.name}\033[0m", end=' ')  # Green for files
+        print()
 
     def find_child(self, name):
         for child in self.children:
@@ -22,41 +38,45 @@ class TreeNode:
                 return child
         return None
 
-def create_sample_map():
-    root = TreeNode("World")
+    def get_path(self, lang):
+        path = []
+        node = self
+        while node:
+            path.append(node.name)
+            node = node.parent
+        path = list(reversed(path))
+        
+        if lang == 'fr':
+            path = [translations.get(name, name) for name in path]
+        
+        return '/' + '/'.join(path)
 
-    # Adding continents
-    europe = TreeNode("Eupi")
-    asia = TreeNode("Asia")
-    root.add_child(europe)
-    root.add_child(asia)
+def create_sample_map(lang):
+    def translate(name):
+        return translations.get(name, name) if lang == 'fr' else name
 
-    # Adding countries in Europe
-    france = TreeNode("IA")
-    germany = TreeNode("Developpement")
-    germany = TreeNode("Cybersecurite") 
-    germany = TreeNode("Algorithme") 
-    germany = TreeNode("Test_Validation") 
-    europe.add_child(france)
-    europe.add_child(germany)
+    root = TreeNode(translate("World"))
 
-    # Adding cities in France
-    sphere = TreeNode("Sphere_securite")
-    quaranaine = TreeNode("Zone_quarantaine")
-    lyon = TreeNode("Temple_données_corrompues")
-    cyber.add_child(paris)
-    cyber.add_child(lyon)
+    eupi = TreeNode(translate("Eupi"))
+    root.add_child(eupi)
 
-    # Adding countries in Asia
-    china = TreeNode("Omega")
-    india = TreeNode("India")
-    asia.add_child(china)
-    asia.add_child(india)
+    dep_ia = TreeNode(translate("AI"))
+    dep_dev = TreeNode(translate("Development"))
+    dep_cyber = TreeNode(translate("Cybersecurity"))
+    dep_algo = TreeNode(translate("Algorithm"))
+    dep_validation = TreeNode(translate("Test_Validation"))
+    eupi.add_child(dep_ia)
+    eupi.add_child(dep_dev)
+    eupi.add_child(dep_cyber)
+    eupi.add_child(dep_algo)
+    eupi.add_child(dep_validation)
 
-    # Adding cities in China
-    beijing = TreeNode("Beijing")
-    shanghai = TreeNode("Shanghai")
-    china.add_child(beijing)
-    china.add_child(shanghai)
-
+    # Adding cities in Cybersecurity
+    sec_sphere = TreeNode(translate("Security_Sphere"))
+    sec_quarantine = TreeNode(translate("Quarantine_Zone"))
+    sec_corrupted_data_temple = TreeNode(translate("Corrupted_Data"))
+    dep_cyber.add_child(sec_sphere)
+    dep_cyber.add_child(sec_quarantine)
+    dep_cyber.add_child(sec_corrupted_data_temple)
+    
     return root
