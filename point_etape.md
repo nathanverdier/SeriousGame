@@ -23,6 +23,8 @@ Le jeu mélange une atmosphère **médiévale-futuriste**, où des cités ancien
 
 **Public cible :**  
 Les passionnés de technologie, de programmation et de jeux de réflexion.
+## Fiche gamae
+![gamae](Images/Fiche_gamae.png)
 
 # 2. Forces et faiblesses du projet :
 ## **Points forts :**
