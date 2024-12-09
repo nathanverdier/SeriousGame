@@ -15,6 +15,22 @@ The player assumes the role of a young \033[1mArchon-Technomancer\033[0m—a gra
 The player will explore various zones, represented by ancient technological terminals, where they will solve complex problems related to system commands, robotics, and programming to liberate the corrupted AIs.
     """
 
+def history_end():
+    return """
+\033[1mEpilogue:\033[0m
+
+After a journey filled with challenges, unveiled mysteries, and fierce battles against the corruption of the \033[1mSovereign AI Systems\033[0m, your mission has finally reached its conclusion. Through your mastery of ancient languages and your resilience in the face of the unknown, you have eradicated the virus that threatened to plunge the world into eternal darkness.
+
+The great cities, once teetering on the brink of destruction, are beginning to regain their former glory. Malfunctioning machines come back to life—not as uncontrollable weapons, but as powerful allies in the service of humanity. The peoples of the realms, freed from fear, unite in hope, rebuilding a world where technology and harmony can coexist.
+
+But this victory is more than just a triumph of technology. It is a symbol of renewal: a testament to humanity’s ability to learn from its mistakes, forge connections with the remnants of the past, and shape a brighter future. The millennia-old artifacts, once misunderstood, now form the foundation of a new era—an era where balance between humans and machines has finally been restored.
+
+\033[1mAnd you, Archon-Technomancer, are now a legend.\033[0m Your name will be etched into history as the one who deciphered forgotten mysteries, restored order, and lit the path to a prosperous future.
+
+\033[1mThank you for playing. Your adventure may have ended, but the story lives on...\033[0m
+    """
+
+
 def help_commands():
     return """
 \033[1mBasic Commands:\033[0m
