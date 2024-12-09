@@ -1,38 +1,14 @@
 # start.py
+from time import sleep
 import languages.english as english
 import languages.french as french
 import utils.parchemin as parchemin
 from scripts.map import create_sample_map, TreeNode
 import readline
-
-def completer(text, state):
-    options = [i.name for i in current_node.children if i.name.startswith(text)]
-    if state < len(options):
-        return options[state]
-    else:
-        return None
-
-readline.set_completer(completer)
-readline.parse_and_bind("tab: complete")
-
-def find_node_by_path(current_node, path):
-    parts = path.split('/')
-    node = current_node
-    for part in parts:
-        if part == "..":
-            if node.parent:
-                node = node.parent
-            else:
-                print("Error: Already at the root.")
-                return None
-        else:
-            next_node = node.find_child(part)
-            if next_node:
-                node = next_node
-            else:
-                print(f"Error: '{part}' not found.")
-                return None
-    return node
+from scripts.completer import completer
+from scripts.navigation import find_node_by_path
+from scripts.missions import mission_1, mission_2
+import utils.clear_shell as clear
 
 def game(lang):
     global current_node  # Make current_node accessible in the completer function
@@ -53,13 +29,16 @@ def game(lang):
     map_root = create_sample_map(lang)
     current_node = map_root
 
+    readline.set_completer(lambda text, state: completer(text, state, current_node))
+    readline.parse_and_bind("tab: complete")
+
     mission = 1
 
     while True:
         if mission == 1:
-            print("Mission 1: Navigate to the 'Cybersecurity' directory and list its contents.")
+            mission_1(lang)
         elif mission == 2:
-            print("Mission 2: Navigate to the 'Corrupted_Data' directory and display the current path.")
+            mission_2(lang)
 
         command = input(f"[mission {mission}] $ ")
 
@@ -90,5 +69,12 @@ def game(lang):
             print("Unknown command. Available commands: cd [name], ls, pwd, exit")
 
         if mission == 3:
-            print("All missions completed! Exiting the game.")
+            clear.clear_screen()
+
+            if lang == 'en':
+                history_text = english.history_end()
+            elif lang == 'fr':
+                history_text = french.history_end()
+            parchemin.display_parchemin(history_text)
+            sleep(30)
             break
