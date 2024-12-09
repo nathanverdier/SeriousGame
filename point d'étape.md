@@ -126,6 +126,8 @@ Le jeu soulève également des questions éthiques autour de l'usage des IA et d
 
 # 4. Diagramme de Gantt sur le projet global + Jalon "TP 7":
 
+## A réaliser la prochaine séance
+
 
 
 
