@@ -14,7 +14,7 @@ def main():
     if lang == 'en':
         warning = "\033[1m\033[91mWARNING: FOR THE BEST EXPERIENCE, PLEASE MAXIMIZE YOUR TERMINAL WINDOW.\033[0m"
     elif lang == 'fr':
-        warning = "\033[1m\033[91mATTENTION: POUR UNE MEILLEURE EXPÉRIENCE, VEUILLEZ METTRE VOTRE TERMINAL EN PLEIN ÉCRAN.\033[0m"
+        warning = "\033[1m\033[91mATTENTION: METTEZ VOTRE TERMINAL EN PLEIN ÉCRAN POUR UNE MEILLEURE EXPÉRIENCE.\033[0m"
 
     parchemin.display_parchemin(warning)
     time.sleep(4)  # Délai de 8 secondes
