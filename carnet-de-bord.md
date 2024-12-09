@@ -51,12 +51,12 @@ Détail scénario
 
 ## Scéance 3
 ### Fait
-#### - continuer la map
-#### - Point d'étape:
-- Présentation du jeu
-- Forces et faiblesses du projet
-- Documentation sur le thème 
-- Diagramme de Gantt sur le projet global 
+- Continuer la map
+-Point d'étape:
+  - Présentation du jeu
+  - Forces et faiblesses du projet
+  - Documentation sur le thème 
+  - Diagramme de Gantt sur le projet global 
 
 
 
@@ -65,11 +65,11 @@ Détail scénario
 - Diagramme de Gantt sur le projet global 
 ## Scéance 4
 ### Fait
-## - Finaliser point d'étape.
-## - Diagramme de Gantt final.
+- Finaliser point d'étape.
+- Diagramme de Gantt final.
 ### Pour la scéance d'après
--Finalisation de la map et code de programmation.
--Test
+- Finalisation de la map et code de programmation.
+- Test.
 ## Scéance 5
 ### Fait
 
