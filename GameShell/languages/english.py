@@ -40,9 +40,7 @@ def help_commands():
 \033[1m> mv [source] [destination]\033[0m - Move or rename files or directories
 \033[1m> cp [source] [destination]\033[0m - Copy files or directories
 \033[1m> rm [file]\033[0m - Remove files or directories
-\033[1m> mkdir [directory]\033[0m - Create a new directory
-\033[1m> rmdir [directory]\033[0m - Remove an empty directory
 \033[1m> pwd\033[0m - Print the current working directory
 \033[1m> cat [file]\033[0m - Concatenate and display files
-\033[1m> man [command]\033[0m - Display the manual for a command
+\033[1m> help\033[0m - Display commandes information
     """
