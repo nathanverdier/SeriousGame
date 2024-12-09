@@ -7,7 +7,7 @@ from scripts.map import create_sample_map, TreeNode
 import readline
 from scripts.completer import completer
 from scripts.navigation import find_node_by_path
-from scripts.missions import mission_1, mission_2
+from scripts.missions import mission_1, mission_2, last_mission
 import utils.clear_shell as clear
 
 def game(lang):
@@ -58,23 +58,25 @@ def game(lang):
                     elif mission == 2 and current_node.name == "Corrupted_Data" or current_node.name == "Donnees_corrompues":
                         print("Mission 2 completed!")
                         print(current_node.get_path(lang))
-                        mission = 3
+                        mission = 0
         elif command == "ls":
             current_node.list_children()
         elif command == "pwd":
             print(current_node.get_path(lang))
+        elif command == "help":
+            parchemin.display_help_commands_parchemin(commands_text)
         elif command == "exit":
             break
         else:
             print("Unknown command. Available commands: cd [name], ls, pwd, exit")
 
-        if mission == 3:
+        if mission == 0:
             clear.clear_screen()
-
-            if lang == 'en':
-                history_text = english.history_end()
-            elif lang == 'fr':
-                history_text = french.history_end()
-            parchemin.display_parchemin(history_text)
-            sleep(30)
-            break
+            if last_mission(lang):
+                if lang == 'en':
+                    history_text = english.history_end()
+                elif lang == 'fr':
+                    history_text = french.history_end()
+                parchemin.display_parchemin(history_text)
+                sleep(30)
+                break
