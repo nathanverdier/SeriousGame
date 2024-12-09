@@ -53,9 +53,15 @@ def game(lang):
     map_root = create_sample_map(lang)
     current_node = map_root
 
+    mission = 1
+
     while True:
-        #print(f"\nCurrent location: {current_node.name}")
-        command = input("[mission 1] $ ")
+        if mission == 1:
+            print("Mission 1: Navigate to the 'Cybersecurity' directory and list its contents.")
+        elif mission == 2:
+            print("Mission 2: Navigate to the 'Corrupted_Data' directory and display the current path.")
+
+        command = input(f"[mission {mission}] $ ")
 
         if command.startswith("cd"):
             parts = command.split(maxsplit=1)
@@ -66,6 +72,14 @@ def game(lang):
                 next_node = find_node_by_path(current_node, destination)
                 if next_node:
                     current_node = next_node
+                    if mission == 1 and current_node.name == "Cybersecurity" or current_node.name == "Cybersecurite":
+                        print("Mission 1 completed!")
+                        current_node.list_children()
+                        mission = 2
+                    elif mission == 2 and current_node.name == "Corrupted_Data" or current_node.name == "Données_corrompues":
+                        print("Mission 2 completed!")
+                        print(current_node.get_path(lang))
+                        mission = 3
         elif command == "ls":
             current_node.list_children()
         elif command == "pwd":
@@ -73,4 +87,8 @@ def game(lang):
         elif command == "exit":
             break
         else:
-            print("Unknown command. Available commands: cd [name], ls, exit")
+            print("Unknown command. Available commands: cd [name], ls, pwd, exit")
+
+        if mission == 3:
+            print("All missions completed! Exiting the game.")
+            break
