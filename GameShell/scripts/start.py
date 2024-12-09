@@ -55,7 +55,7 @@ def game(lang):
                         print("Mission 1 completed!")
                         current_node.list_children()
                         mission = 2
-                    elif mission == 2 and current_node.name == "Corrupted_Data" or current_node.name == "Données_corrompues":
+                    elif mission == 2 and current_node.name == "Corrupted_Data" or current_node.name == "Donnees_corrompues":
                         print("Mission 2 completed!")
                         print(current_node.get_path(lang))
                         mission = 3
