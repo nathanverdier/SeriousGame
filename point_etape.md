@@ -27,30 +27,38 @@ Les passionnés de technologie, de programmation et de jeux de réflexion.
 # 2. Forces et faiblesses du projet :
 **Points forts :**
 
-1. **Originalité du concept :** Le mélange de magie médiévale et de technologie avancée crée un univers unique et captivant.
-   
-2. **Gameplay stimulant :** Utiliser des commandes shell et de la programmation pour résoudre des énigmes rend le jeu intéressant et engageant pour les passionnés de technologie.
+## 1. Un concept original qui mélange magie et technologie
+Le jeu Le Virus Souverain propose un univers unique où la magie et la technologie avancée coexistent. Ce mélange donne un résultat captivant, car il crée un monde où la technologie est perçue comme de la magie ancienne. Par exemple, les IA Souveraines, qui sont des artefacts très sophistiqués, sont vues par les habitants comme des entités mystiques. Ce concept original attire facilement l’attention, car il combine deux genres populaires (fantasy et science-fiction) pour offrir quelque chose de nouveau. Ce mélange donne aussi beaucoup de liberté pour construire des intrigues passionnantes et des mécaniques de jeu innovantes.
 
-3. **Ambiance immersive :** La fusion de la magie et de la technologie crée une atmosphère intrigante et mystérieuse.
+## 2. Un gameplay qui éduque tout en divertissant
+Le gameplay se concentre sur la résolution de problèmes à l’aide de commandes informatiques comme ls, grep, ou cd. Ce choix rend le jeu non seulement amusant, mais aussi éducatif. En jouant, les utilisateurs apprennent à maîtriser des outils techniques, ce qui peut être utile dans la vie réelle, notamment pour ceux qui s’intéressent à la programmation ou à la cybersécurité. Les défis proposés, comme trouver un fichier infecté ou réparer un programme, sont conçus pour stimuler l’esprit. Ils permettent aux joueurs de développer leurs compétences techniques tout en progressant dans l’histoire, ce qui donne un sentiment de satisfaction à chaque étape.
 
-4. **Énigmes variées :** Les puzzles de programmation, de hacking et de robotique apportent des défis intéressants et diversifiés.
+## 3. Une ambiance immersive et cohérente
+L’univers du jeu est conçu pour plonger le joueur dans une atmosphère à la fois mystérieuse et futuriste. Les descriptions textuelles des environnements, des ennemis et des énigmes sont détaillées, créant une immersion complète. Par exemple, une IA corrompue pourrait être décrite comme une entité "entourée d’éclats de données rouges, émettant un bourdonnement inquiétant", ce qui renforce la tension et l’immersion. Ce type de narration donne vie au monde du jeu, même sans éléments visuels sophistiqués, et incite les joueurs à explorer davantage.
 
-5. **Exploration profonde :** Le jeu permet de naviguer dans des mondes virtuels corrompus avec une grande liberté, offrant une expérience immersive.
+## 4. Des énigmes variées et stimulantes
+Le jeu propose un large éventail d’énigmes qui mettent à l’épreuve la logique, la programmation et la résolution de problèmes. Par exemple, certains défis peuvent demander au joueur de déchiffrer un code malveillant, tandis que d’autres l’obligent à créer un script pour réparer un robot. Cette variété empêche la monotonie et maintient l’intérêt des joueurs tout au long du jeu. Elle permet aussi de toucher des personnes ayant des compétences différentes, car chaque énigme aborde un aspect spécifique de la programmation ou de la technologie.
 
----
+## 5. Un public passionné et fidèle
+Le projet s’adresse à un public spécifique : les amateurs de technologie, de programmation et de jeux intellectuels. Ce type de public est souvent très engagé et apprécie les expériences qui mêlent apprentissage et plaisir. Ces joueurs ont tendance à être fidèles et enthousiastes, partageant leurs découvertes dans des communautés en ligne, ce qui peut aider à promouvoir le jeu. En visant ce groupe, le projet s’assure d’avoir une base solide de joueurs intéressés par le concept.
 
-**Points faibles :**
+#### Faiblesses du projet
+## 1. Une accessibilité difficile pour les débutants
+Le gameplay basé sur des commandes shell et des notions de programmation peut être intimidant pour les joueurs qui ne sont pas familiers avec ces outils. Par exemple, quelqu’un qui n’a jamais utilisé une commande comme grep pourrait se sentir perdu dès le début du jeu. Cela risque de décourager les novices qui ne connaissent pas bien l’informatique. Pour résoudre ce problème, le jeu pourrait inclure des tutoriels simples et progressifs pour apprendre les bases, afin de rendre l’expérience plus accessible à tous.
 
-1. **Difficulté d’accès :** Le gameplay axé sur la programmation peut être difficile pour ceux qui ne sont pas familiers avec les commandes informatiques.
+## 2. Une courbe d’apprentissage parfois trop abrupte
+Même si le concept d’apprendre en jouant est intéressant, certaines énigmes risquent d’être trop complexes pour les joueurs débutants. Par exemple, une tâche demandant d’écrire un script en Python ou d’utiliser des expressions régulières pourrait être trop difficile pour quelqu’un qui découvre ces concepts. Cela pourrait frustrer les joueurs et les pousser à abandonner. Une solution serait d’introduire les défis progressivement, avec des niveaux plus simples au début pour laisser le temps aux joueurs d’apprendre et de s’adapter.
 
-2. **Courbe d’apprentissage :** Les énigmes techniques peuvent être complexes et décourageantes pour les joueurs débutants.
+## 3. Un risque de répétitivité dans les énigmes
+Si le jeu repose trop souvent sur les mêmes types de défis (comme chercher un fichier corrompu ou réparer un script), les joueurs pourraient rapidement trouver l’expérience monotone. Même si les énigmes sont techniques, elles doivent être variées pour garder l’attention. Par exemple, le jeu pourrait introduire des missions complètement différentes, comme pirater un système de sécurité ou résoudre des conflits entre plusieurs IA. Cela permettrait de renouveler l’intérêt et d’ajouter de la profondeur au gameplay.
 
-3. **Répétitivité possible :** Si les énigmes deviennent trop similaires, cela pourrait rendre le jeu monotone.
+## 4. Une interface textuelle qui peut rebuter certains joueurs
+L’absence de graphismes modernes pourrait être un obstacle pour certains joueurs habitués à des jeux visuellement riches. Une interface textuelle, bien que fidèle au thème du jeu, peut sembler austère et peu engageante pour ceux qui préfèrent des visuels colorés et interactifs. Pour améliorer l’expérience, il serait possible d’ajouter des éléments visuels légers, comme des animations en ASCII ou des graphismes minimalistes, tout en conservant l’aspect rétro-technique du jeu.
 
-4. **Manque de visuel :** L'interface en texte pur pourrait ne pas attirer les joueurs qui préfèrent des graphismes modernes.
+## 5. Un public cible restreint
+Le jeu s’adresse principalement à des joueurs qui ont déjà un intérêt pour la programmation ou la technologie. Cela limite son attrait pour un public plus large, qui pourrait être effrayé par le côté trop technique. Pour élargir l’audience, il serait utile d’ajouter des éléments plus accessibles, comme des énigmes simples ou une narration plus mise en avant. Cela permettrait d’attirer des joueurs curieux, même s’ils ne sont pas experts en informatique.
 
-5. **Public limité :** Le jeu s'adresse surtout à des joueurs intéressés par la programmation, ce qui peut restreindre son attrait à un public plus large.
- 
+
 # 3. Documentation sur le thème (2-3 pages maximum) + références/ressources pour aller plus loin:
 **Documentation sur le thème : "Le Virus Souverain"**
 
