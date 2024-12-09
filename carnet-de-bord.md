@@ -55,21 +55,22 @@ Détail scénario
 -Point d'étape:
   - Présentation du jeu
   - Forces et faiblesses du projet
-  - Documentation sur le thème 
-  
-
-
+  - Documentation sur le thème
 
 ### Pour la scéance d'après
 - Finaliser point d'étape.
-- Diagramme de Gantt sur le projet global.
+- Diagramme de Gantt sur le projet global. 
+
 ## Scéance 4
 ### Fait
 - Finaliser point d'étape.
 - Diagramme de Gantt final.
+- Code sauf mission
 ### Pour la scéance d'après
 - Finalisation de la map et code de programmation.
+- Ajout missions
 - Test.
+
 ## Scéance 5
 ### Fait
 
