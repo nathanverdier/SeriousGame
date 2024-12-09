@@ -7,7 +7,7 @@ from scripts.map import create_sample_map, TreeNode
 import readline
 from scripts.completer import completer
 from scripts.navigation import find_node_by_path
-from scripts.missions import mission_1, mission_2, last_mission
+from scripts.missions import mission_1, mission_2, mission_3, last_mission
 import utils.clear_shell as clear
 
 def game(lang):
@@ -60,7 +60,7 @@ def game(lang):
                     elif mission == 2 and current_node.name == "Corrupted_Data" or current_node.name == "Donnees_corrompues":
                         print("Mission 2 completed!")
                         print(current_node.get_path(lang))
-                        mission = 0
+                        mission = 3
         elif command == "ls":
             current_node.list_children()
         elif command == "pwd":
@@ -72,6 +72,12 @@ def game(lang):
             break
         else:
             print("Unknown command. Available commands: cd [name], ls, pwd, exit")
+
+
+        if mission == 3:
+            clear.clear_screen()
+            if mission_3(lang):
+                mission = 0
 
         if mission == 0:
             clear.clear_screen()
