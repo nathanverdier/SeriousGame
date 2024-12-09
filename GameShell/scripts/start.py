@@ -33,15 +33,10 @@ def game(lang):
     readline.parse_and_bind("tab: complete")
 
     mission = 1
+    current_mission = mission_1(lang)
+    parchemin.display_parchemin(current_mission)
 
     while True:
-        if mission == 1:
-            current_mission = mission_1(lang)
-            parchemin.display_parchemin(current_mission)
-        elif mission == 2:
-            current_mission = mission_2(lang)
-            parchemin.display_parchemin(current_mission)
-
         command = input(f"[mission {mission}] $ ")
 
         if command.startswith("cd"):
@@ -56,8 +51,10 @@ def game(lang):
                     if mission == 1 and current_node.name == "Cybersecurity" or current_node.name == "Cybersecurite":
                         print("Mission 1 completed!")
                         current_node.list_children()
+                        current_mission = mission_2(lang)
+                        parchemin.display_parchemin(current_mission)
                         mission = 2
-                    elif mission == 2 and current_node.name == "Corrupted_Data" or current_node.name == "Donnees_corrompues":
+                    elif mission == 2 and (current_node.name == "Corrupted_Data" or current_node.name == "Donnees_corrompues"): 
                         print("Mission 2 completed!")
                         print(current_node.get_path(lang))
                         mission = 3
@@ -66,18 +63,23 @@ def game(lang):
         elif command == "pwd":
             print(current_node.get_path(lang))
         elif command == "help":
-            parchemin.display_parchemin(current_mission)
             parchemin.display_help_commands_parchemin(commands_text)
+            parchemin.display_parchemin(current_mission)
         elif command == "exit":
             break
         else:
-            print("Unknown command. Available commands: cd [name], ls, pwd, exit")
+            if lang == 'en':
+                print("Unknown command. Type 'help' for a list of commands.")
+            elif lang == 'fr':
+                print("Commande inconnue. Tapez 'help' pour une liste de commandes.")
+            
 
 
         if mission == 3:
             clear.clear_screen()
             if mission_3(lang):
                 mission = 0
+                sleep(4)
 
         if mission == 0:
             clear.clear_screen()
