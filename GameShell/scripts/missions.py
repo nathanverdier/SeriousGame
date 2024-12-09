@@ -20,7 +20,8 @@ def last_mission(lang):
             'enter_password_text': "Enter the password: ",
             'correct_text': "Correct! The virus has been defeated!",
             'incorrect_text': "Incorrect! You have {} attempts left.",
-            'failed_text': "Mission failed. Try again."
+            'failed_text': "Mission failed. Try again.",
+            'password': "SovereignVirus"
         },
         'fr': {
             'mission_text': "Mission 3: Résolvez l'énigme pour continuer.",
@@ -28,7 +29,8 @@ def last_mission(lang):
             'enter_password_text': "Entrez le mot de passe : ",
             'correct_text': "Correct! Le virus a été vaincu!",
             'incorrect_text': "Incorrect! Il vous reste {} tentatives.",
-            'failed_text': "Mission échouée. Réessayez."
+            'failed_text': "Mission échouée. Réessayez.",
+            'password': "VirusSouverain"
         }
     }
 
@@ -37,7 +39,7 @@ def last_mission(lang):
     print(msg['mission_text'])
     print(msg['hint_text'])
     
-    password = "SovereignVirus"
+    password = msg['password']
     attempts = 3
 
     while attempts > 0:
