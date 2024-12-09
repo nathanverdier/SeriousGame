@@ -15,78 +15,63 @@ def mission_2(lang):
 def mission_3(lang):
     messages = {
         'en': {
-            'mission_text': "Mission 4: Debug the following code to proceed.",
-            'hint_text': "Hint: The code has a syntax error and a logical error.",
+            'intro_text': "Here is the initial code of the virus. It has mutated since, but let's start with this.",
+            'mission_text': "Mission 3: Identify the line with an error to proceed.",
+            'hint_text': "Hint: The error is in the calculation logic.",
             'code_text': """
-def calculate_factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * calculate_factorial(n - 1)
+def calculate_sum(n):
+    total = 0
+    for i in range(n):
+        total += i
+    return total
 
-print(calculate_factorial(5))
+print(calculate_sum(5))  # Expected output: 15
             """,
-            'correct_text': "Correct! The code is now working!",
+            'correct_text': "Correct! The error has been identified!",
             'incorrect_text': "Incorrect! Try again.",
-            'failed_text': "Mission failed. Try again."
+            'error_line_index': 4,
+            'input_prompt': "Enter the index of the line with the error: "
         },
         'fr': {
-            'mission_text': "Mission 4: Déboguez le code suivant pour continuer.",
-            'hint_text': "Indice: Le code a une erreur de syntaxe et une erreur logique.",
+            'intro_text': "Voici le code initial du virus. Il a muté depuis, mais commençons par ceci.",
+            'mission_text': "Mission 3: Identifiez la ligne avec une erreur pour continuer.",
+            'hint_text': "Indice: L'erreur est dans la logique de calcul.",
             'code_text': """
-def calcule_factorielle(n):
-    if n == 0:
-        return 1
-    else:
-        return n * calculer_factorielle(n - 1)
+def calculer_somme(n):
+    total = 0
+    for i in range(n):
+        total += i
+    return total
 
-print(calculer_factorielle(5))
+print(calculer_somme(5))  # Résultat attendu : 15
             """,
-            'correct_text': "Correct! Le code fonctionne maintenant!",
+            'correct_text': "Correct! L'erreur a été identifiée!",
             'incorrect_text': "Incorrect! Réessayez.",
-            'failed_text': "Mission échouée. Réessayez."
+            'error_line_index': 4,
+            'input_prompt': "Entrez l'index de la ligne avec l'erreur: "
         }
     }
 
     msg = messages[lang]
 
+    print(msg['intro_text'])
     print(msg['mission_text'])
     print(msg['hint_text'])
     print(msg['code_text'])
 
-    correct_code = {
-        'en': """
-def calculate_factorial(n):
-    if n == 0:
-        return 1
-    elif n > 0:
-        return n * calculate_factorial(n - 1)
-    else:
-        return None
 
-print(calculate_factorial(5))
-        """,
-        'fr': """
-def calculer_factorielle(n):
-    if n == 0:
-        return 1
-    elif n > 0:
-        return n * calculer_factorielle(n - 1)
-    else:
-        return None
-
-print(calculer_factorielle(5))
-        """
-    }
-
-    user_input = input("Enter the corrected code: ")
-
-    if user_input.strip() == correct_code[lang].strip():
-        print(msg['correct_text'])
-        return True
-    else:
-        print(msg['incorrect_text'])
-        return False
+    while 1:
+        try:
+            user_input = int(input(msg['input_prompt']))
+            if user_input == msg['error_line_index']:
+                print(msg['correct_text'])
+                return True
+            else:
+                print(msg['incorrect_text'])
+        except ValueError:
+            print("Please enter a valid number.")
+    return False
+    
 
 def last_mission(lang):
     messages = {
