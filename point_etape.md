@@ -25,10 +25,10 @@ Le jeu mélange une atmosphère **médiévale-futuriste**, où des cités ancien
 Les passionnés de technologie, de programmation et de jeux de réflexion.
 
 # 2. Forces et faiblesses du projet :
-**Points forts :**
+## **Points forts :**
 
 ## 1. Un concept original qui mélange magie et technologie
-Le jeu Le Virus Souverain propose un univers unique où la magie et la technologie avancée coexistent. Ce mélange donne un résultat captivant, car il crée un monde où la technologie est perçue comme de la magie ancienne. Par exemple, les IA Souveraines, qui sont des artefacts très sophistiqués, sont vues par les habitants comme des entités mystiques. Ce concept original attire facilement l’attention, car il combine deux genres populaires (fantasy et science-fiction) pour offrir quelque chose de nouveau. Ce mélange donne aussi beaucoup de liberté pour construire des intrigues passionnantes et des mécaniques de jeu innovantes.
+Le jeu Le Virus Souverain propose un univers unique où la magie et la technologie avancée coexistent car il crée un monde où la technologie est perçue comme de la magie ancienne. Par exemple, les IA Souveraines, qui sont des artefacts très sophistiqués, sont vues par les habitants comme des entités mystiques. Ce concept original attire facilement l’attention, car il combine deux genres populaires pour offrir quelque chose de nouveau. Ce mélange donne aussi beaucoup de liberté pour construire des intrigues passionnantes et des mécaniques de jeu innovantes.
 
 ## 2. Un gameplay qui éduque tout en divertissant
 Le gameplay se concentre sur la résolution de problèmes à l’aide de commandes informatiques comme ls, grep, ou cd. Ce choix rend le jeu non seulement amusant, mais aussi éducatif. En jouant, les utilisateurs apprennent à maîtriser des outils techniques, ce qui peut être utile dans la vie réelle, notamment pour ceux qui s’intéressent à la programmation ou à la cybersécurité. Les défis proposés, comme trouver un fichier infecté ou réparer un programme, sont conçus pour stimuler l’esprit. Ils permettent aux joueurs de développer leurs compétences techniques tout en progressant dans l’histoire, ce qui donne un sentiment de satisfaction à chaque étape.
@@ -42,7 +42,7 @@ Le jeu propose un large éventail d’énigmes qui mettent à l’épreuve la lo
 ## 5. Un public passionné et fidèle
 Le projet s’adresse à un public spécifique : les amateurs de technologie, de programmation et de jeux intellectuels. Ce type de public est souvent très engagé et apprécie les expériences qui mêlent apprentissage et plaisir. Ces joueurs ont tendance à être fidèles et enthousiastes, partageant leurs découvertes dans des communautés en ligne, ce qui peut aider à promouvoir le jeu. En visant ce groupe, le projet s’assure d’avoir une base solide de joueurs intéressés par le concept.
 
-#### Faiblesses du projet
+## Faiblesses du projet
 ## 1. Une accessibilité difficile pour les débutants
 Le gameplay basé sur des commandes shell et des notions de programmation peut être intimidant pour les joueurs qui ne sont pas familiers avec ces outils. Par exemple, quelqu’un qui n’a jamais utilisé une commande comme grep pourrait se sentir perdu dès le début du jeu. Cela risque de décourager les novices qui ne connaissent pas bien l’informatique. Pour résoudre ce problème, le jeu pourrait inclure des tutoriels simples et progressifs pour apprendre les bases, afin de rendre l’expérience plus accessible à tous.
 
@@ -131,10 +131,8 @@ Le jeu soulève également des questions éthiques autour de l'usage des IA et d
 
 
 
-
 # 4. Diagramme de Gantt sur le projet global + Jalon "TP 7":
 
-## A réaliser la prochaine séance
 
 
 
