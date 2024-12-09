@@ -36,9 +36,11 @@ def game(lang):
 
     while True:
         if mission == 1:
-            mission_1(lang)
+            current_mission = mission_1(lang)
+            parchemin.display_parchemin(current_mission)
         elif mission == 2:
-            mission_2(lang)
+            current_mission = mission_2(lang)
+            parchemin.display_parchemin(current_mission)
 
         command = input(f"[mission {mission}] $ ")
 
@@ -64,6 +66,7 @@ def game(lang):
         elif command == "pwd":
             print(current_node.get_path(lang))
         elif command == "help":
+            parchemin.display_parchemin(current_mission)
             parchemin.display_help_commands_parchemin(commands_text)
         elif command == "exit":
             break
