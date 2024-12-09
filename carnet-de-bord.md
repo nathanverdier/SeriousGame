@@ -56,13 +56,13 @@ Détail scénario
   - Présentation du jeu
   - Forces et faiblesses du projet
   - Documentation sur le thème 
-  - Diagramme de Gantt sur le projet global 
+  
 
 
 
 ### Pour la scéance d'après
 - Finaliser point d'étape.
-- Diagramme de Gantt sur le projet global 
+- Diagramme de Gantt sur le projet global.
 ## Scéance 4
 ### Fait
 - Finaliser point d'étape.
