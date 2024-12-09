@@ -43,4 +43,5 @@ def help_commands():
 \033[1m> pwd\033[0m - Print the current working directory
 \033[1m> cat [file]\033[0m - Concatenate and display files
 \033[1m> help\033[0m - Display commandes information
+\033[1m> exit\033[0m - Exit the program
     """
