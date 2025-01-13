@@ -9,7 +9,7 @@ date: "Université Clermont-Ferrand - Master SETSIS - AR"
 
 {\Huge \textbf{Gestion de projet}}\\
 \vspace{0,5cm}
-{\Large \textbf{Point d'étape}}
+{\Large \textbf{Compte rendu}}
 
 \vspace{1cm}
 
@@ -32,3 +32,4 @@ date: "Université Clermont-Ferrand - Master SETSIS - AR"
 \vfill
 \end{titlepage}
 \newpage
+#1. Test du jeux par les membres du groupe: 
