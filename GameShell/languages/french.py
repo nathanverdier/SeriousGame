@@ -37,11 +37,8 @@ def help_commands():
     
     \033[1m> ls\033[0m - Lister le contenu du répertoire
     \033[1m> cd [répertoire]\033[0m - Changer le répertoire courant
-    \033[1m> mv [source] [destination]\033[0m - Déplacer ou renommer des fichiers ou des répertoires
-    \033[1m> cp [source] [destination]\033[0m - Copier des fichiers ou des répertoires
-    \033[1m> rm [fichier]\033[0m - Supprimer des fichiers ou des répertoires
+    \033[1m> cd ..\033[0m - retourner au répertoire parent
     \033[1m> pwd\033[0m - Afficher le répertoire de travail courant
-    \033[1m> cat [fichier]\033[0m - Concaténer et afficher des fichiers
     \033[1m> help\033[0m - Afficher les commandes
     \033[1m> exit\033[0m - Quitter le programme
         """

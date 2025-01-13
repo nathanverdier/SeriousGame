@@ -37,11 +37,8 @@ def help_commands():
 
 \033[1m> ls\033[0m - List directory contents
 \033[1m> cd [directory]\033[0m - Change the current directory
-\033[1m> mv [source] [destination]\033[0m - Move or rename files or directories
-\033[1m> cp [source] [destination]\033[0m - Copy files or directories
-\033[1m> rm [file]\033[0m - Remove files or directories
+\033[1m> cd ..\033[0m - return to the parent directory
 \033[1m> pwd\033[0m - Print the current working directory
-\033[1m> cat [file]\033[0m - Concatenate and display files
 \033[1m> help\033[0m - Display commandes information
 \033[1m> exit\033[0m - Exit the program
     """
