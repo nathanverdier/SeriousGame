@@ -7,7 +7,7 @@ from scripts.map import create_sample_map, TreeNode
 import readline
 from scripts.completer import completer
 from scripts.navigation import find_node_by_path
-from scripts.missions import mission_1, mission_2, mission_3, last_mission
+from scripts.missions import mission_1, mission_2, mission_3, mission_4, mission_5, mission_6, mission_7, last_mission
 import utils.clear_shell as clear
 
 def game(lang):
@@ -50,7 +50,6 @@ def game(lang):
                     current_node = next_node
                     if mission == 1 and current_node.name == "Cybersecurity" or current_node.name == "Cybersecurite":
                         print("Mission 1 completed!")
-                        current_node.list_children()
                         current_mission = mission_2(lang)
                         parchemin.display_parchemin(current_mission)
                         mission = 2
@@ -58,6 +57,16 @@ def game(lang):
                         print("Mission 2 completed!")
                         print(current_node.get_path(lang))
                         mission = 3
+                    # elif mission == 4 and (current_node.name == "Test_Validation" or current_node.name == "Test_Validation"): 
+                    #     print("Mission 4 completed!")
+                    #     print(current_node.get_path(lang))
+                    #     mission = 5
+                    # if mission == 5:
+                    #     clear.clear_screen()
+                    #     if mission_7(lang):
+                    #         mission = 0
+                    #         sleep(4)
+
         elif command == "ls":
             current_node.list_children()
         elif command == "pwd":
@@ -72,12 +81,16 @@ def game(lang):
                 print("Unknown command. Type 'help' for a list of commands.")
             elif lang == 'fr':
                 print("Commande inconnue. Tapez 'help' pour une liste de commandes.")
-            
-
 
         if mission == 3:
             clear.clear_screen()
             if mission_3(lang):
+                mission = 4
+                sleep(4)
+
+        if mission == 4:
+            clear.clear_screen()
+            if mission_7(lang):
                 mission = 0
                 sleep(4)
 
