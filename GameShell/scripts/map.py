@@ -24,7 +24,7 @@ translations = {
     "Cathedral_of_Machines": "Cathedrale_des_Machines",
     "Diagnostic_Terminal": "Terminal_Diagnostique",
     "Debugging_Chamber": "Chambre_de_Debug",
-    "Restoration_Passage": "Passage_de_Restauration",
+    "Restoration_Passage": "Restoration_Passage",
     "Breakpoint_Zone": "Zone_de_Point_d_Arret"
 }
 
