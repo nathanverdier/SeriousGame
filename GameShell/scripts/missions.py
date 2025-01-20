@@ -175,6 +175,7 @@ def mission_7(lang):
                 |      
                 |-----> Pin 9 (Digital output to DAQ Assistant)
                 |
+            Le nom et le prénom de l'ia est : "SovereignVirus"
             """
         },
         'fr': {
@@ -204,6 +205,7 @@ def mission_7(lang):
                 |      
                 |-----> Broche 9 (Sortie numérique vers DAQ Assistant)
                 |
+            Le nom et le prénom de l'ia est : "VirusSouverain"
             """
         }
     }
