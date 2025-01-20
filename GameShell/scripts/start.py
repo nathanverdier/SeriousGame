@@ -98,7 +98,7 @@ def game(lang):
             clear.clear_screen()
             if mission_7(lang):
                 mission = 0
-                sleep(6)
+                input("Press Enter to continue...")
 
         if mission == 0:
             clear.clear_screen()

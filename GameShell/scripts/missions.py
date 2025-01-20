@@ -19,11 +19,11 @@ def mission_3(lang):
             'mission_text': "Mission 3: Identify the line with an error to proceed.",
             'hint_text': "Hint: The error is in the calculation logic.",
             'code_text': """
-def calculate_sum(n):
-    total = 0
-    for i in range(n):
-        total += i
-    return total
+1. def calculate_sum(n):
+2.    total = 0
+3.    for i in range(n):
+4.        total += i
+5.    return total
 
 print(calculate_sum(5))  # Expected output: 15
             """,
@@ -37,11 +37,11 @@ print(calculate_sum(5))  # Expected output: 15
             'mission_text': "Mission 3: Identifiez la ligne avec une erreur pour continuer.",
             'hint_text': "Indice: L'erreur est dans la logique de calcul.",
             'code_text': """
-def calculer_somme(n):
-    total = 0
-    for i in range(n):
-        total += i
-    return total
+1. def calculate_sum(n):
+2.    total = 0
+3.    for i in range(n):
+4.        total += i
+5.    return total
 
 print(calculer_somme(5))  # Résultat attendu : 15
             """,
