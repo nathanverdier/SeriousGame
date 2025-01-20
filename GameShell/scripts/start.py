@@ -90,9 +90,15 @@ def game(lang):
 
         if mission == 4:
             clear.clear_screen()
+            if mission_6(lang):
+                mission = 5
+                sleep(6)
+
+        if mission == 5:
+            clear.clear_screen()
             if mission_7(lang):
                 mission = 0
-                sleep(4)
+                sleep(6)
 
         if mission == 0:
             clear.clear_screen()
