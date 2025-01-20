@@ -25,7 +25,7 @@ def mission_3(lang):
 4.        total += i
 5.    return total
 
-print(calculate_sum(5))  # Expected output: 15
+print(calculate_sum(5))  # Expected output: 17
             """,
             'correct_text': "Correct! The error has been identified!",
             'incorrect_text': "Incorrect! Try again.",
@@ -43,7 +43,7 @@ print(calculate_sum(5))  # Expected output: 15
 4.        total += i
 5.    return total
 
-print(calculer_somme(5))  # Résultat attendu : 15
+print(calculer_somme(5))  # Résultat attendu : 17
             """,
             'correct_text': "Correct! L'erreur a été identifiée!",
             'incorrect_text': "Incorrect! Réessayez.",
