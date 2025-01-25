@@ -74,14 +74,18 @@ Détail scénario
 
 ## Scéance 5
 ### Fait
-
+-commencer à creer le site webet le personnaliser
+-amélioration du jeux
+- test
 ### Pour la scéance d'après
-
+tout finir et préparer pour la présentation
 ## Scéance 6
 ### Fait
-
+-test final avec les autres groupes et les résumer
+- commencer la présentation
+- finaliser le site et le gantt project
 ### Pour la scéance d'après
-
+-examen (présentation en groupe)
 ## Scéance 7
 ### Fait
 
